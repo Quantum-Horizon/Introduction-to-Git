@@ -32,6 +32,7 @@ git add sandbox/add.txt
 git rm sandbox/remove.txt
 ``` 
 This will add the file ```sandbox/add.txt``` and remove the file ```sandbox/remove.txt``` from the repository commit.
+
 5. Type ```git commit -m "<some commit message which you find suitable"``` . Make sure that you replace the placeholder with a 'suitable and descriptive' message.
 6. Type ```git push``` . This will push your code to GitHub (this is because GitHub is set as a remote origin for push and pull , more on that in subsequnt workshops). You will be required to enter your GitHub username and password. You will see some message that some objects are being pushed to GitHub. If you now go to GitHub you will see that the ```remove.txt``` file does not exist anymore and there is an ```add.txt``` file instead of it , which we pushed from our local machine. 
 7. Now click on ```add.txt``` and open it in GitHub's online editor ( click the small pencil towards the upper-right). Add the text ```Hurrah I know the basics of git``` to it and commit.
